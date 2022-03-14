@@ -1,8 +1,0 @@
-# Disable directory browsing 
-Options -Indexes
-    RewriteEngine On 
-
-    RewriteRule ^api/([^/]+)/?$ url.php?param1=$1 [NC,L,QSA]
-        #RewriteRule ^api/([^/]+)/([^/]+)/?$ url.php?param1=$1&bidder_id=$2 [NC,L,QSA]
-
-    #RewriteRule ^api/([^/]+)/([^/]+)/([^/]+)/?$ url.php?param1=$1&bidder_id=$2&auction_no=$3 [NC,L,QSA]
